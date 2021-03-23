@@ -215,7 +215,7 @@ body {
 .header-contact .link:focus .mail-icon,
 .header-contact .link:hover .phone-icon,
 .header-contact .link:focus .phone-icon {
-  --color1: var(--accent-color);
+  fill: var(--accent-color);
 }
 /* ========== END HEADER ========== */
 
@@ -475,7 +475,7 @@ body {
 
 .clients-list .link:hover .client-logo-icon,
 .clients-list .link:focus .client-logo-icon {
-  --color1: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* ========== END CLIENTS SECTIONS ========== */
@@ -514,8 +514,7 @@ body {
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  --color1: var(--primary-white-color);
-  /* fill: var(--primary-white-color); */
+  fill: var(--primary-white-color);
 }
 
 /* ========== END SOCIAL LINKS ========== */
@@ -700,7 +699,7 @@ body {
 
 .site-footer-list-social-list .link:hover .social-list-icon,
 .site-footer-list-social-list .link:focus .social-list-icon {
-  --color1: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 
 /* ========== END FOOTER ========== */
