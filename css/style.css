@@ -2,6 +2,8 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
 
+  --primary-svg-color: #afb1b8;
+
   --accent-color: #2196f3;
   --accent-hero-color: #188ce8;
 
@@ -470,6 +472,8 @@ body {
 }
 
 .client-logo-icon {
+  fill: var(--primary-svg-color);
+
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -503,6 +507,7 @@ body {
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: var(--primary-svg-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -695,6 +700,10 @@ body {
 .site-footer-list-social-list .link:hover,
 .site-footer-list-social-list .link:focus {
   background-color: var(--accent-color);
+}
+
+.site-footer-list-social-list .social-list-icon {
+  fill: var(--primary-white-color);
 }
 
 .site-footer-list-social-list .link:hover .social-list-icon,
